@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('https://imgd.aeplcdn.com/1280x720/n/cw/ec/93535/royalenfield-classic-350-2021-left-rear-three-quarter1.jpeg?wm=2&q=75');
+  background-size: cover;
+  background-attachment: fixed;
+}
+

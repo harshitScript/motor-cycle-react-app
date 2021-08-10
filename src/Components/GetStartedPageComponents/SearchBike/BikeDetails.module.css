@@ -1,0 +1,34 @@
+.bikeDetailsContainer {
+  box-sizing: border-box;
+  margin-top: 1vh;
+  padding: 1vh;
+  background-color: darkgrey;
+  border-radius: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.divFirstChild {
+  width: 30%;
+  border: 2vh white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divSecondChild {
+  width: 70%;
+  border: 2vh white;
+  color: white;
+  text-shadow: 0 0 0.5vh black;
+}
+
+.divFirstChild > img {
+  border-radius: 1vh;
+  box-shadow: 0 0 0.5vh black;
+}
+
+.bikeName {
+  color: white;
+  font-size: 4vh;
+}

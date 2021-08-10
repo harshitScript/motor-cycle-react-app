@@ -1,0 +1,9 @@
+.pageNotFound {
+  box-sizing: border-box;
+  padding: 1vh;
+}
+.pageNotFound h1,
+.pageNotFound p {
+  text-align: center;
+  color: white;
+}

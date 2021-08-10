@@ -1,0 +1,36 @@
+.responseType {
+  text-align: center;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 10vh;
+  font-weight: bold;
+}
+
+.footerContainer {
+  position: fixed;
+  top: 95%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footerContainer span {
+  font-size: small;
+}
+
+@media screen and (max-height: 500px) {
+  .responseType {
+    text-align: center;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: bold;
+  }
+  .footerContainer span {
+    font-size: 1vh;
+  }
+}

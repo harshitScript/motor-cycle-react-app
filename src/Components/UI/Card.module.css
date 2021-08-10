@@ -1,0 +1,21 @@
+.card{
+    border-radius: 1vh;
+    box-shadow: 0 0 1vh grey;
+    margin: 0 auto;
+    margin-top: 10vh;
+    padding: 1vh;
+    width: 50%;
+    background-color:black;
+}
+
+@media screen and (max-width:500px){
+    .card{
+        border-radius: 1vh;
+        box-shadow: 0 0 1vh grey;
+        margin: 0 auto;
+        margin-top: 10vh;
+        padding: 1vh;
+        width: 80%;
+        background-color:black;
+    }
+}

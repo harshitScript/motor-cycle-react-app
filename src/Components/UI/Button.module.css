@@ -1,0 +1,31 @@
+.buttonContainer {
+  box-sizing: border-box;
+  padding: 1vh;
+}
+
+.buttonContainer button {
+  height: 5vh;
+  color: white;
+  width: 25%;
+  border-radius: 0.5vh;
+  background-color: darkgrey;
+}
+
+@keyframes buttonScale {
+  from {
+  }
+  to {
+    transform: scale(1.05, 1.05);
+  }
+}
+
+.buttonContainer button:focus {
+  animation: buttonScale 0.25s linear normal 1 forwards;
+}
+
+.buttonContainer button:disabled{
+  opacity: 70%;
+  cursor: not-allowed;
+}
+
+@media screen and (max-width:500px){}

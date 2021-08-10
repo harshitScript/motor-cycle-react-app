@@ -1,0 +1,44 @@
+.colorMeterDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh;
+  text-shadow: 0 0 0.5vh black;
+  font-weight: bold;
+}
+
+.poor {
+  background-color: red;
+  width: 20%;
+  color: white;
+  border: none;
+  text-align: center;
+}
+.average {
+  background-color: yellow;
+  width: 20%;
+  color: white;
+  text-align: center;
+  border: none;
+}
+.good {
+  background-color: orange;
+  width: 20%;
+  color: white;
+  text-align: center;
+  border: none;
+}
+.veryGood {
+  background-color: lightgreen;
+  width: 20%;
+  color: white;
+  text-align: center;
+  border: none;
+}
+.best {
+  background-color: green;
+  color: white;
+  width: 20%;
+  text-align: center;
+  border: none;
+}

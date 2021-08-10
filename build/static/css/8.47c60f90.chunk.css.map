@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/pages/NotFoundPage.module.css"],"names":[],"mappings":"AAAA,kCACE,qBAAsB,CACtB,WACF,CACA,yEAEE,iBAAkB,CAClB,UACF","file":"8.47c60f90.chunk.css","sourcesContent":[".pageNotFound {\r\n  box-sizing: border-box;\r\n  padding: 1vh;\r\n}\r\n.pageNotFound h1,\r\n.pageNotFound p {\r\n  text-align: center;\r\n  color: white;\r\n}\r\n"]}

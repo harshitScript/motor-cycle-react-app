@@ -1,0 +1,24 @@
+.inputConatiner {
+  box-sizing: border-box;
+  padding: 1vh;
+}
+
+.inputConatiner input {
+  height: 5vh;
+  border: none;
+  border-bottom: 1vh solid grey;
+  width: 90%;
+  border-radius: 1vh;
+  color: white;
+  background-color: black;
+}
+
+.inputConatiner input:hover {
+  background-color: rgb(80, 73, 73);
+}
+
+.inputConatiner span{
+  color: white;
+  font-size: small;
+  display: block;
+}

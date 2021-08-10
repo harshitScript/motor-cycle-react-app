@@ -1,0 +1,53 @@
+.bikeDespCard {
+  color: white;
+  width: 80%;
+  text-shadow: 0 0 0.5vh darkgrey;
+  margin-bottom: 20vh;
+}
+
+.imgContainer{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+.imgContainer img{
+  border-radius: 2vh;
+  box-shadow: 0 0 0.5vh darkgrey;
+}
+
+.bikeNameAndReleaseContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bikeNameSpan{
+  color: white;
+  font-size: 5vh;
+}
+
+.bikeReleaseYearSpan{
+  color: white;
+  font-size: 5vh;
+}
+
+.desc{
+  font-size: small;
+  color: lightgray;
+
+}
+
+.footerContainer {
+  position: fixed;
+  top: 95%;
+  left: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footerContainer span {
+  font-size: small;
+}
+

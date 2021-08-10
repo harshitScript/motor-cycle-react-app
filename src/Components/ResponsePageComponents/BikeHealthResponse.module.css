@@ -1,0 +1,23 @@
+.detailSpan {
+  display: block;
+  color: white;
+  font-size: small;
+}
+
+.bikeHealthSpan {
+  display: block;
+  font-size: 15vh;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .bikeHealthSpan {
+    display: block;
+    font-size: 15vh;
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+}
